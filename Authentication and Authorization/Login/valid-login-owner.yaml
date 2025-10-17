@@ -1,0 +1,16 @@
+appId: com.redantcolony.rac_pos.stg
+tags:
+  - staging
+  - critical_path
+---
+- launchApp:
+    clearState: true
+
+- assertVisible: Silahkan masukkan akun Anda untuk melanjutkan
+- tapOn: No. Whatsapp *
+- inputText: ${owner_account}
+- tapOn: Password *
+- inputText: ${password}
+- tapOn: Kembali
+- tapOn: Masuk
+- assertVisible: Organisasi

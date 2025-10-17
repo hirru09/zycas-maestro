@@ -1,0 +1,41 @@
+
+Learn how to write a test
+12345678910
+appId: com.redantcolony.rac_pos.stg
+tags:
+  - staging
+  - critical_path
+---
+- launchApp:
+    clearState: false
+
+- tapOn: Menuju Dashboard
+
+Insert Command
+⌘K
+Inspect Screen
+⌘I
+
+Local
+Cloud
+Flow: C:\\Users\\PF3C5\\OneDrive\\Documents\\GitHub\\zycas-maestro\\Master Data\\open-page-master-data.yaml - open-page-master-data
+
+See Details
+
+0:00
+✅
+Launch app "com.redantcolony.rac_pos.stg"
+
+0:03
+✅
+Tap on "Menuju Dashboard"
+
+$0appId: com.redantcolony.rac_pos.stg
+tags:
+  - staging
+  - critical_path
+---
+- launchApp:
+    clearState: false
+
+- tapOn: Menuju Dashboard
